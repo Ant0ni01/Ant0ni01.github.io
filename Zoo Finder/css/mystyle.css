@@ -1,0 +1,68 @@
+.text-format{
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.text-format-about{
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.text-format-contact{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.text-format-feedback{
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 16;
+}
+
+.open-weather{
+    line-height: 1.6;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.center{
+    text-align: center;
+}
+
+.errorMessage{
+	color: #FF0B11;
+}
+
+
+.form-buttons :hover{
+	background-color: #F78536 !important;
+}
+
+.btn{
+    background: none !important;
+    color: #fff;
+}
+
+.maintain{
+    background: #F78536 !important;
+    color: #fff;
+}
+
+.btn:hover, .btn:active, .btn:focus{
+    color: #fff;
+    background: #F78536 !important;
+    outline: none !important;
+}
+
+
+.underline :hover{
+    text-decoration: underline; 
+    text-decoration-color: #F78536;
+}
+
+.header-color{
+    color: #F78536;
+}
+
