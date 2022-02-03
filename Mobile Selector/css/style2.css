@@ -1,0 +1,51 @@
+body
+{
+	font-family: sans-serif;
+}
+
+p
+{
+	color: #000000;
+}
+
+#currentTab
+{
+	color: #624533 !important;
+}
+
+h2
+{
+	color: #1e8449  ;
+	font-style: italic;
+	text-align: center;
+}
+
+.nav-item a
+{
+	color: #ffffff !important;
+}
+
+.nav-item a:hover
+{
+	color: #624533 !important;
+}
+
+.mission
+{
+	text-align: justify;
+}
+
+.about
+{
+	text-align: justify;
+}
+
+.turnGreen
+{
+    background-color: #70af40 !important;
+}
+
+.py-5
+{
+	background-image: url("../images/1.jpeg");
+}

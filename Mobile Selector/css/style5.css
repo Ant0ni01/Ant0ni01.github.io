@@ -1,0 +1,34 @@
+body
+{
+ font-family: sans-serif;
+}
+
+p
+{
+ text-align: justify;
+}
+
+.nav-item a
+{
+	color: #ffffff !important;
+}
+
+.nav-item a:hover
+{
+	color: #624533 !important;
+}
+
+h4
+{
+  font-style: italic;
+}
+
+.turnGreen
+{
+  background-color: #70af40 !important;
+}
+
+.py-5
+{
+	background-image: url("../images/1.jpeg");
+}

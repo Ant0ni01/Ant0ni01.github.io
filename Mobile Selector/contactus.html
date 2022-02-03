@@ -1,0 +1,161 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="keywords" content="Mobile, Selector, phone, Mobile Selector, Apple, Google, Samsung page, contact, us,  contact us" />
+   <meta name="description" content="Contact us page of Mobile Selector's website">
+   <meta name="author" content="">
+
+   <title>Contact Us</title>
+
+   <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Custom styles for this template -->
+   <link href="css/modern-business.css" rel="stylesheet" />
+   <link href="css/style3.css" rel="stylesheet" />
+   <script src="js/validation.js"></script>
+
+ </head>
+
+ <body>
+
+   <!-- Navigation -->
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top turnGreen">
+     <div class="container">
+       <a class="navbar-brand" href="index.html">
+         <img src="images/logo2.png" title="Mobile Selector logo" />
+       </a>
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="aboutus.html">About Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="products.html">Products</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contactus.html" id="currentTab">Contact Us</a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+   <br>
+   <div class="container">
+     <ol class="breadcrumb">
+       <li class="breadcrumb-item">
+         <a href="index.html">Home</a></li>
+       <li class="breadcrumb-item active">Contact Us</li>
+     </ol>
+
+   <!-- Content Row -->
+   <div class="row">
+     <!-- Map Column -->
+     <div class="col-md-8 mb-4">
+       <!-- Embedded Google Map -->
+       <div class="mapDiv">
+         <iframe class="mapResponsive" src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1961.3310157510289!2d-61.40875854185036!3d10.527262935186414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c35f96f6fd0738d%3A0x4573cea3f61e853f!2sPrice+Plaza!5e0!3m2!1sen!2s!4v1560298227900!5m2!1sen!2s'>
+         </iframe>
+       </div>
+     </div>
+     <!-- Contact Details Column -->
+     <div class="col-md-4 mb-4">
+       <h3>Contact Details</h3>
+       <p>
+         Endeavour Road, Endeavour, Trinidad and Tobago
+         <br>
+       </p>
+       <p>
+         Phone number: (868) 368-7822
+       </p>
+       <p>
+         <abbr title="Email">Email</abbr>:
+         <a href="mailto:support@MobileSelector.com"> support@MobileSelector.com
+         </a>
+       </p>
+       <p>
+      Opening Hours: <br> Monday - Friday: <br>9:00 AM to 5:00 PM
+       </p>
+     </div>
+   </div>
+
+
+
+   <!-- Page Content -->
+   <br>
+   <div class="row justify-content-around">
+     <div class="col-lg-8 col-md-12 mb-4">
+       <h1 class="touch"> Get in touch with us. </h1>
+       <form action="#" method="post" onsubmit="return validateForm(this);">
+         <fieldset class="labels">
+           <br>
+           <br>
+           <div class="row justify-content-around">
+             <label> First Name*: </label>
+             <input type="text" name="firstName" value="" placeholder="first name" class="form-control" />
+             <span class="errorMessage" id="error1"></span>
+           </div>
+           <br>
+           <br>
+           <div class="row justify-content-around">
+             <label> Last Name*: </label>
+             <input type="text" name="lastName" value="" placeholder="last name" class="form-control" />
+             <span class="errorMessage" id="error2"></span>
+           </div>
+           <br>
+           <br>
+           <div class="row justify-content-around">
+             <label> Your Email*: </label>
+             <input type="text" name="yourEmail" value="" placeholder="johndoe@gmail.com" class="form-control" />
+             <span class="errorMessage" id="error3"></span>
+           </div>
+           <br>
+           <br>
+         </fieldset>
+         <div class="row justify-content-around">
+           <label>Your Message*:</label>
+           <textarea rows="10" cols="100" class="form-control textbox" name="yourMessage"></textarea>
+           <span class="errorMessage" id="error4"></span>
+         </div>
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class="row justify-content-center buttons">
+           <div class="col-md-6 mb-4 bottom2">
+           <input type="submit" name="contactSumbit" value="Submit" class="btn btn-lg btn-secondary btn-block bottom" />
+           </div>
+           <div class="col-md-6 mb-4 bottom2">
+           <input type="reset" name="contactReset" value="Reset" class="btn btn-lg btn-secondary btn-block bottom" onClick="resetForm(this.form)"/>
+           </div>
+         </div>
+         <br>
+         <br>
+         <br>
+       </form>
+     </div>
+   </div>
+  </div>
+
+   <!-- Footer -->
+   <footer class="py-5 bg-dark"  title="A Wood Floor">
+     <div class="container">
+       <p class="m-0 text-center text-white">Copyright &copy; Mobile Selector 2019</p>
+     </div>
+   </footer>
+
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+ </body>
+
+ </html>

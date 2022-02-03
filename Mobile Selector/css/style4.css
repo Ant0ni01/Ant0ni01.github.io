@@ -1,0 +1,60 @@
+body
+{
+	font-family: sans-serif;
+}
+
+#currentTab
+{
+	color: #624533 !important;
+}
+
+
+h3
+{
+	font-size: 90px;
+	font-weight: bold;
+	margin-left : 1100px;
+	margin-bottom: 200px;
+}
+
+.bottom
+{
+	background-color: #70af40;
+	padding: 10px;
+}
+
+.bottom2 a:hover
+{
+	background-color: #624533;
+}
+
+.nav-item a
+{
+	color: #ffffff !important;
+}
+
+.nav-item a:hover
+{
+	color: #624533 !important;
+}
+
+p
+{
+	color: #000000;
+}
+
+.card-text
+{
+	text-align: justify;
+}
+
+
+.turnGreen
+{
+  background-color: #70af40 !important;
+}
+
+.py-5
+{
+	background-image: url("../images/1.jpeg");
+}

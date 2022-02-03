@@ -1,0 +1,55 @@
+body
+{
+	font-family: sans-serif;
+}
+
+
+.bottom
+{
+	background-color: #70af40;
+}
+
+.bottom2 a:hover
+{
+	background-color: #624533;
+}
+
+.nav-item a
+{
+	color: #ffffff !important;
+}
+
+.nav-item a:hover
+{
+	color: #624533 !important;
+}
+
+.looking
+{
+  padding: 10px;
+}
+
+.py-5
+{
+	background-image: url("../images/1.jpeg");
+}
+
+
+h3
+{
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 225px;
+}
+
+p
+{
+	text-align:justify;
+}
+
+.turnGreen
+{
+    background-color: #70af40 !important;
+}

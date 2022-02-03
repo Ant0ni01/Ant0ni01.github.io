@@ -1,0 +1,74 @@
+body
+{
+	font-family: sans-serif;
+}
+
+#currentTab
+{
+	color: #624533 !important;
+}
+
+.errorMessage
+{
+	color: #FF0B11;
+}
+
+.bottom
+{
+	background-color: #70af40 !important;
+}
+
+.bottom2 :hover
+{
+	background-color: #624533 !important;
+}
+
+.nav-item a
+{
+	color: #ffffff !important;
+}
+
+.nav-item a:hover
+{
+	color: #624533 !important;
+}
+
+.mapDiv
+ {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+ }
+
+.mapResponsive
+{
+  border: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h1
+{
+	color: #1e8449;
+	font-style: italic;
+	text-align: center;
+}
+
+p
+{
+	text-align:justify;
+	color: #000000;
+}
+
+.turnGreen
+{
+    background-color: #70af40 !important;
+}
+
+.py-5
+{
+	background-image: url("../images/1.jpeg");
+}
